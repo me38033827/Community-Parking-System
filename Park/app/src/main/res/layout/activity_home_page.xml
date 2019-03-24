@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zh.park.HomePage"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="出租车位"
+        android:id="@+id/rent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="找车位"
+        android:id="@+id/find"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="我的"
+        android:id="@+id/my"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+
+</LinearLayout>
